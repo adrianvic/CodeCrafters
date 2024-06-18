@@ -34,5 +34,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
             summary.textContent = `Loaded ${postsCount} posts.`;
         })
-        .catch(error => {console.error('Error fetching posts:', error);});
+        .catch(error => {
+            const summary = document.getElementById('postsSummary');
+            console.error('Error fetching posts:', error);
+            summary.textContent = `Error fetching posts: ${error}`;
+            
+        });
 });
