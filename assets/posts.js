@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('/assets/posts.json')
+    fetch('./assets/posts.json')
         .then(response => response.json())
         .then(data => {
             const postsContainer = document.getElementById('posts-container');
