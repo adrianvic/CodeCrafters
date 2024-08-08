@@ -106,12 +106,8 @@ a:hover {
     transition: .1s;
 }
 
-#apkrenamer {
-    background-color: rgb(164,198,57);
-}
-
-#youtube {
-    background-color: #d30000;
+#example {
+    background-color: gray;
 }
 
 .menuEntryHelper:hover {
