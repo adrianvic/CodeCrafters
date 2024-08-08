@@ -9,9 +9,10 @@
       <h1>CodeCrafters - $</h1>
       <header>
           <nav id="navigation">
-                  <a href="index.html">home</a>
-                  <a href="posts.html">posts</a>
-                  <a href="about.html">about</a>
+                  <a href="index.html">início</a>
+                  <a href="posts.html">postagens</a>
+                  <a href="projects.html">projetos</a>
+                  <a href="about.html">sobre</a>
           </nav>
       </header>
         `;
@@ -29,7 +30,7 @@
       connectedCallback() {
         this.innerHTML = `
       <footer>
-          <p>2024 - Adrian Victor & Veronica Balke, all rights reserved.</p>
+          <p>2024 - Adrian Victor & Veronica Balke, todos os direitos reservados.</p>
       </footer>
         `;
       }

@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         postsCount++;
                     });
 
-                    summary.textContent = `Loaded ${postsCount} posts.`;
+                    summary.textContent = `${postsCount} postagens carregadas.`;
                 } catch (error) {
                     console.error('Error parsing JSON:', error);
                     summary.textContent = `Error parsing JSON: ${error}`;

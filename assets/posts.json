@@ -1,16 +1,11 @@
 {
     "posts": [
         {
-            "title": "First Post",
-            "content": "This is the content of the first post.",
-            "timestamp": "2024-01-01T00:00:00Z",
-            "buttonLink": "https://github.com/adrianvic/CodeCrafters",
-            "buttonText": "Check out"
-        },
-        {
-            "title": "Second Post",
-            "content": "This is the content of the second postaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.",
-            "timestamp": "2025-02-01T00:00:00Z"
+            "title": "Primeira postagem.",
+            "content": "Esse é um teste do sistema de postagens.",
+            "timestamp": "2024-08-08T18:51:45Z",
+            "buttonLink": "https://git.disroot.org/adrianvictor/CodeCrafters",
+            "buttonText": "Código fonte"
         }
     ]
 }
