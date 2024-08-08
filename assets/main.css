@@ -1,0 +1,172 @@
+:root {
+    --accentColor: darkred;
+    --accentColorVariation: red;
+  }  
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 91vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+    margin: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: var(--accentColor);
+    transition: .2s;
+}
+
+h1:hover {
+    color: var(--accentColorVariation);
+    transition: .2s;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    align-self: flex-end;
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+a {
+    transition: .2s;
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: .2s;
+    text-decoration:wavy;
+    color: white;
+}
+
+#navigation a {
+    transition: .2s;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#currentPageLink {
+    font-size: 40px !important;
+    color: white;
+}
+
+#asciiArt {
+    color: darkred;
+    text-align: center;
+}
+
+.menuEntry {
+    display: inline-block;
+}
+
+.menuEntryColor {
+    color: white;
+}
+
+.highlightedText {
+    color: var(--accentColor);
+}
+
+.menuEntryColor:hover {
+    color: white;
+}
+
+.menuEntryHelper {
+    background-color: darkred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 100%;
+    border: 3px solid transparent;
+    border-color: rgba(0, 0, 0, 0.2);
+    transition: .1s;
+}
+
+#apkrenamer {
+    background-color: rgb(164,198,57);
+}
+
+#youtube {
+    background-color: #d30000;
+}
+
+.menuEntryHelper:hover {
+    transition: .15s;
+    border-color: rgba(255, 255, 255, .2);
+}
+
+.menuEntryImageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.mehLarge {
+    width: 300px;
+    height: 150px;  
+}
+
+.mehSmall {
+    width: 150px;
+    height: 150px;
+}
+
+.mehGiant{
+    width: 300px;
+    height: 300px;
+}
+
+.menuEntryImage {
+    max-width: 80%;
+    height: auto;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+.textContainer {
+    width: 100%;
+    text-align: left;
+}
+
+.textContainer a {
+    color: white;
+}
+
+/* Keyframes */
+@keyframes fly {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(0%, -2%);
+    }
+}

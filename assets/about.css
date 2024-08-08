@@ -1,0 +1,8 @@
+#aboutHelper {
+    display: flex   ;
+    justify-content: center;
+}
+
+#about {
+    max-width: 75%;
+}

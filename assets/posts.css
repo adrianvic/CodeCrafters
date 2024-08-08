@@ -1,0 +1,24 @@
+#posts-container {
+    gap: 10px;
+    display: flex;
+}
+
+.postTitle {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.postLink {
+    display: inline-block;
+    border: 2px solid gray;
+    padding: 5px;
+}
+
+.postLink:hover {
+    border-color: var(--accentColor);
+}
+
+.post {
+    border: 4px solid white;
+    padding: 10px;
+}
